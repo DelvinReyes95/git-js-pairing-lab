@@ -54,3 +54,14 @@ console.log("Q---1")
  }
  console.log("Q---6")
  console.log(add(7,7))
+ 
+ function isNegative(num){
+     if (num <= 0){
+         return true 
+     } else {
+         return false
+     }
+ }
+ console.log("Q---7")
+ console.log(isNegative(-4))
+ 
