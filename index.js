@@ -44,3 +44,13 @@ console.log("Q---1")
  console.log("Q---5")
  multiply(5, 5)
  
+ function add(a,b) {
+     let results = a+b
+     if (a === b) {
+         return results * 3
+     } else {
+         return results
+     }
+ }
+ console.log("Q---6")
+ console.log(add(7,7))
