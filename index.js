@@ -17,3 +17,14 @@ console.log("Q---1")
  }
  console.log("Q---2");
  multiplesOfThree()
+ 
+ function multiplesOfThreeOrFive(){
+     for (let i = 1; i <= 100; i++){
+         if (i % 3 === 0 || i % 5 === 0){
+             console.log(i)
+     }
+ }
+ }
+ console.log("Q---3")
+ multiplesOfThreeOrFive()
+ 
