@@ -83,3 +83,10 @@ console.log("Q---1")
  }
  console.log("Q---9")
  console.log(betweenTwentyAndFourty(50))
+ 
+ function largest(a,b,c) {
+     let max = Math.max(a,b,c);
+     return max
+ }
+ console.log("Q---10")
+ console.log(largest(30,22,17))
