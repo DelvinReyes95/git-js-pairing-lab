@@ -35,3 +35,12 @@ console.log("Q---1")
  }
  console.log("Q---4")
  untilNum(3)
+ 
+ function multiply(a, b){
+     let results = a * b;
+     console.log(results);
+     
+ }
+ console.log("Q---5")
+ multiply(5, 5)
+ 
