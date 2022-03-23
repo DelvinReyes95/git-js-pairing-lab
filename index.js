@@ -90,3 +90,11 @@ console.log("Q---1")
  }
  console.log("Q---10")
  console.log(largest(30,22,17))
+ 
+ function printTime(){
+     let current = new Date();
+     return `${current.getUTCHours()-4} : ${current.getUTCMinutes()} : ${current.getUTCSeconds()}`;
+ }
+
+ console.log("Q---11")
+ console.log(printTime())
