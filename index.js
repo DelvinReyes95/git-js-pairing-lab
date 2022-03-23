@@ -28,3 +28,10 @@ console.log("Q---1")
  console.log("Q---3")
  multiplesOfThreeOrFive()
  
+ function untilNum(num) {
+     for (let i = 1; i <= num; i++) {
+         console.log(i);
+     }
+ }
+ console.log("Q---4")
+ untilNum(3)
