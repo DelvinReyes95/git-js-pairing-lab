@@ -65,3 +65,9 @@ console.log("Q---1")
  console.log("Q---7")
  console.log(isNegative(-4))
  
+ function triangleArea(a,b) {
+     let results = a * b / 2
+     return results
+ }
+ console.log("Q---8");
+ console.log(triangleArea(5,7))
