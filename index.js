@@ -71,3 +71,15 @@ console.log("Q---1")
  }
  console.log("Q---8");
  console.log(triangleArea(5,7))
+ 
+ function betweenTwentyAndFourty(num){
+     if (num < 20){
+         return false
+     } else if (num > 100){
+         return false
+     } else {
+         return true
+     }
+ }
+ console.log("Q---9")
+ console.log(betweenTwentyAndFourty(50))
